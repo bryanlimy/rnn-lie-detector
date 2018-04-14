@@ -11,4 +11,4 @@ The the MFCC vectors have different length, in order to pass in the vectors into
 - Also available at `data.zip` in the repository
 
 #### How to run
-`python3 detector.py --lr=0.001 ---epochs=5 --model=LSTM --data_dir=data --per_frame=True`
+`python3 lie-detector.py --lr=0.001 ---epochs=5 --model=LSTM --data_dir=data --per_frame=True`
