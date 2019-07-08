@@ -8,7 +8,6 @@ The the MFCC vectors have different length, in order to pass in the vectors into
 
 #### Dataset
 - [CSC Deceptive Speech Dataset](https://catalog.ldc.upenn.edu/LDC2013S09)
-- Also available at `data` in the repository
 
 #### How to run
 `python3 lie-detector.py --lr=0.001 ---epochs=5 --model=LSTM --data_dir=data --per_frame=True`
